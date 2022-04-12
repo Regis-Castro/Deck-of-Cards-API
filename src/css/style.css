@@ -32,6 +32,7 @@ button {
   color: #FFD785;
   background-color: transparent;
   border-radius: 5%;
+  cursor: pointer;
   font-size: 0.8vw;
   margin-right: 20px;
   margin-top: 5vh;

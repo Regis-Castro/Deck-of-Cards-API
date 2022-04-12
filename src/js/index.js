@@ -17,14 +17,14 @@ async function atribuirDeckID(){
 }
 
 async function criarDeckID() {
-  const url = "http://deckofcardsapi.com/api/deck/new/shuffle/?deck_count=1"
+  const url = "https://deckofcardsapi.com/api/deck/new/shuffle/?deck_count=1"
   const resposta = await fetch(url)
   const json =  await resposta.json()
   return json.deck_id
 }
 
 async function pegarImagemEQtdRestante(ID) {
-  const url = `http://deckofcardsapi.com/api/deck/${ID}/draw/?count=1`
+  const url = `https://deckofcardsapi.com/api/deck/${ID}/draw/?count=1`
   const resposta = await fetch(url)
   const json = await resposta.json()
   console.log(json)
@@ -32,10 +32,10 @@ async function pegarImagemEQtdRestante(ID) {
 }
 
 async function mostrarImagemEQtdRestante() {
+  sacar.play()
+
   const [imagem, restantes] = await pegarImagemEQtdRestante(id)
   document.getElementById('carta').src = imagem
-  sacar.play()
-  // document.getElementById('carta').style.marginTop = '200px'
   document.getElementById('restantes').innerHTML = `Cartas restantes: ${restantes}`
 
   if (restantes == 0) {
@@ -44,7 +44,7 @@ async function mostrarImagemEQtdRestante() {
 }
 
 async function retornarCartasProDeck(ID) {
-  const url = `http://deckofcardsapi.com/api/deck/${ID}/return/`
+  const url = `https://deckofcardsapi.com/api/deck/${ID}/return/`
   const resposta = await fetch(url)
   const json = await resposta.json()
   return json.remaining
@@ -56,8 +56,6 @@ async function atualizarCartasRestantes() {
   document.getElementById('carta').src = "src/images/baralho.svg"
   retornar.play()
 }
-
-
 
 //chama a função no primeiro carregamento do código e gera o id
 atribuirDeckID()
