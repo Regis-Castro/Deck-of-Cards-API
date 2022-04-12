@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="src/css/reset.css">
+  <link rel="stylesheet" href="src/css/style.css">
+  <link rel="stylesheet" href="src/css/responsive.css">
+  <title>Saque suas cartas</title>
+</head>
+
+<body>
+
+  <!-- http://deckofcardsapi.com/ -->
+  <div class="container">
+    <h1>Deck of cards API</h1>
+
+    
+    <img id="carta" src="src/images/baralho.svg" alt="Carta">
+   
+    <button id="mostrar-carta">Sacar carta</button>
+    <button id="retornar-cartas">Retornar cartas</button>
+
+    <p id="restantes"></p>
+
+    <audio autoplay controls preload="metadata">
+      <source src="src/audios/theme.ogg" type="audio/ogg">
+      <source src="src/audios/theme.mp3" type="audio/mpeg">
+      <source src="src/audios/theme.wav" type="audio/wav">
+      <p>Seu navegador não tem suporte para áudios</p>
+    </audio>
+
+    <audio id="sacar" src="src/audios/sacar.mp3"></audio>
+    <audio id="retornar" src="src/audios/retornar.mp3"></audio>
+  </div>
+
+
+
+
+  <script type="text/javascript" src="src/js/index.js"></script>
+</body>
+
+</html>

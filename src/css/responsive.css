@@ -1,0 +1,153 @@
+@media (max-width: 1440px) {
+  h1 {
+    font-size: 4vw
+  }
+  
+  button {
+    font-size: 1.4vw;
+    width: 12vw;
+  }
+}
+
+@media (max-width: 1280px) {
+  
+}
+
+
+
+@media (max-width: 1024px) {
+  button {
+    font-size: 1.5vw;
+    width: 14vw;
+  }
+  
+  p {
+    font-size: 1.8vw;
+  }
+}
+
+
+
+@media (max-width: 834px) {
+  .container {
+    width: 50%;
+  }
+
+  h1 {
+    font-size: 6vw;
+  }
+  
+  button {
+    width: 17vw;
+    font-size: 2vw;
+  }
+
+  p {
+    font-size: 2.2vw;
+  }
+
+  audio {
+    margin-top: 2vh;
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  button {
+    width: 20vw;
+    font-size: 2.1vw;
+  }
+
+  p {
+    font-size: 2.4vw;
+  }
+}
+
+
+
+@media (max-width: 600px) {
+  .container {
+    width: 80%;
+  }
+
+  h1 {
+    font-size: 7vw;
+  }
+
+  button {
+    width: 24vw;
+    font-size: 2.8vw;
+  }
+
+  p {
+    font-size: 3vw;
+  }
+}
+
+
+
+@media (max-width: 425px) {
+  .container {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 10vw;
+  }
+
+  button {
+    width: 38vw;
+    font-size: 4.4vw;
+  }
+
+  p {
+    font-size: 4.8vw;
+  }
+}
+
+
+
+@media (max-width: 414px) {
+  
+}
+
+
+
+@media (max-width: 393px) {
+  .menu {
+    width: 44%;
+  }
+
+  .views-date {
+    width: 85%;
+  }
+
+  .main-video p {
+    margin-top: 4%;
+  }
+}
+
+
+
+@media (max-width: 384px) {
+  
+}
+
+
+
+@media (max-width: 375px) {
+  
+}
+
+
+
+@media (max-width: 360px) {
+  .container {
+    margin-top: 4vh;
+  }
+}
+
+@media (max-width: 320px) {
+  
+}

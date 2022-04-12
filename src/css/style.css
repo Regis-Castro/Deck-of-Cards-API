@@ -1,0 +1,52 @@
+html {
+  
+}
+
+body {
+  background: url(/src/images/vitral.svg);
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.container {
+  margin: 10vh auto;
+  text-align: center;
+  width: 40%;
+}
+
+/* img {
+  width: 300px;
+} */
+
+
+h1 {
+  background-color: #FFD785;
+  background: linear-gradient(50deg, grey, #FFD785);
+  font-size: 2.8vw;
+  margin-bottom: 2vh;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+button {
+  color: #FFD785;
+  background-color: transparent;
+  border-radius: 5%;
+  font-size: 0.8vw;
+  margin-right: 20px;
+  margin-top: 5vh;
+  padding: 10px;
+  width: 10vw;
+}
+
+p {
+  color: #FFD785;
+  font-size: 1.4vw;
+  margin-top: 1vh;
+}
+
+audio {
+  margin-top: 4vh;
+}
+
+
