@@ -1,11 +1,11 @@
-html {
-  
-}
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 body {
   background-image: url(../images/vitral.svg);
+  font-family: 'Playfair Display', serif;
   margin: 0 auto;
   max-width: 1440px;
+  
 }
 
 .container {
@@ -13,11 +13,6 @@ body {
   text-align: center;
   width: 40%;
 }
-
-/* img {
-  width: 300px;
-} */
-
 
 h1 {
   background-color: #FFD785;

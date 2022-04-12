@@ -27,7 +27,6 @@ async function pegarImagemEQtdRestante(ID) {
   const url = `https://deckofcardsapi.com/api/deck/${ID}/draw/?count=1`
   const resposta = await fetch(url)
   const json = await resposta.json()
-  console.log(json)
   return [json.cards[0].image, json.remaining]
 }
 
@@ -57,7 +56,6 @@ async function atualizarCartasRestantes() {
   retornar.play()
 }
 
-//chama a função no primeiro carregamento do código e gera o id
 atribuirDeckID()
 
 
