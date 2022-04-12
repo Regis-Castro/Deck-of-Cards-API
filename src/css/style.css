@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background: url(/src/images/vitral.svg);
+  background-image: url(../images/vitral.svg);
   margin: 0 auto;
   max-width: 1440px;
 }
@@ -41,7 +41,7 @@ button {
 
 p {
   color: #FFD785;
-  font-size: 1.4vw;
+  font-size: 1vw;
   margin-top: 1vh;
 }
 
