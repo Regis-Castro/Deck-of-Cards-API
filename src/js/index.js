@@ -31,11 +31,13 @@ async function pegarImagemEQtdRestante(ID) {
 }
 
 async function mostrarImagemEQtdRestante() {
-  sacar.play()
-
   const [imagem, restantes] = await pegarImagemEQtdRestante(id)
   document.getElementById('carta').src = imagem
   document.getElementById('restantes').innerHTML = `Cartas restantes: ${restantes}`
+
+  if (restantes >= 0) {
+    sacar.play()
+  }
 
   if (restantes == 0) {
     document.getElementById('restantes').innerHTML = `O baralho terminou!`
