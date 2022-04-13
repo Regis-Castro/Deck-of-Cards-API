@@ -10,7 +10,7 @@ document.getElementById('retornar-cartas').addEventListener('click', () => {
 
 })
 
-let id = "" //funciona sem isso
+let id = "" 
 
 async function atribuirDeckID(){
   id = await criarDeckID()

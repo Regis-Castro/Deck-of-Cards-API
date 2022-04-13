@@ -13,11 +13,6 @@
   }
 }
 
-@media (max-width: 1280px) {
-  
-}
-
-
 
 @media (max-width: 1024px) {
   button {
@@ -56,7 +51,6 @@
 }
 
 
-
 @media (max-width: 768px) {
   button {
     width: 20vw;
@@ -67,7 +61,6 @@
     font-size: 2.4vw;
   }
 }
-
 
 
 @media (max-width: 600px) {
@@ -90,7 +83,6 @@
 }
 
 
-
 @media (max-width: 425px) {
   .container {
     width: 100%;
@@ -111,13 +103,6 @@
 }
 
 
-
-@media (max-width: 414px) {
-  
-}
-
-
-
 @media (max-width: 393px) {
   .menu {
     width: 44%;
@@ -132,26 +117,8 @@
   }
 }
 
-
-
-@media (max-width: 384px) {
-  
-}
-
-
-
-@media (max-width: 375px) {
-  
-}
-
-
-
 @media (max-width: 360px) {
   .container {
     margin-top: 4vh;
   }
-}
-
-@media (max-width: 320px) {
-  
 }
